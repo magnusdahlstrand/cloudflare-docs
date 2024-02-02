@@ -442,7 +442,7 @@ To bind Durable Objects to your Worker, assign an array of the below object to t
 
 - `script_name` {{<type>}}string{{</type>}} {{<prop-meta>}}optional{{</prop-meta>}}
 
-  - The Worker script where the Durable Object is defined, if it is external to this Worker.
+  - The Worker script where the Durable Object is defined, if it is external to this Worker. When using this option a local instanceo of the Durable Object won't be created, and instead a remote binding is created.
 
 - `environment` {{<type>}}string{{</type>}} {{<prop-meta>}}optional{{</prop-meta>}}
 
